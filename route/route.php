@@ -10,6 +10,7 @@
 // +----------------------------------------------------------------------
 // + lishuaiqiu (sqiu_li@163.com)
 // +----------------------------------------------------------------------
+use think\facade\Route;
 
 Route::get('redirect', 'index/redirectLast'); //记住的跳转地址
 Route::get('only-wechat', 'index/Login/onlyWechat');

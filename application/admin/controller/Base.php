@@ -1,14 +1,14 @@
 <?php
+/**
+* admin模块基类
+*  @author: asuma(lishuaiqiu) <sqiu_li@163.com>
+*/
 namespace app\admin\controller;
 
 use think\Controller;
 use PHPExcel;
 use PHPExcel_IOFactory;
 
-/**
- * 业务基类
- * @author asuma(lishuaiqiu) <sqiu_li@163.com>
- */
 class Base extends Controller
 {
     protected $uid = NULL;
@@ -44,7 +44,7 @@ class Base extends Controller
     }
     
     /**
-     * @param $code 状态码
+     * @param int $code 状态码
      * @author lishuaiqiu
      * Admin后台table数据全局统一返回格式
      */
@@ -55,7 +55,7 @@ class Base extends Controller
     }
 
     /**
-     * @param $code 状态码
+     * @param int $code 状态码
      * @author lishuaiqiu
      * Admin后台json数据全局统一返回格式
      */

@@ -6,8 +6,8 @@
 // +----------------------------------------------------------------------
 
 namespace app\http\middleware;
-use Session;
-use Url;
+use think\facade\Session;
+use think\facade\Url;
 use think\Db;
 
 class AutoLogin
