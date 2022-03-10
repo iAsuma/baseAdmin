@@ -1,4 +1,6 @@
 
+### 本框架已不再维护，使用iAsuma/heavyCMS替代
+
 基于iAsuma/layui-tp51-admin编写
 ===============
 
